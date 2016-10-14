@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "Faster creating  projects",
+  "main": "index.js",
+  "bin": {
+    "scaffold": "scaffold.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scaffold"
+  ],
+  "author": "",
+  "license": "ISC"
+}
