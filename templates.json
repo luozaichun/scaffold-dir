@@ -1,6 +1,1 @@
-{"tpl": {
-  "webpack": {
-    "dir": "dev/css/abc,dev/images/efg,dev/js,lib"
-    }
-  }
-}
+{"tpl":{"webpack":{"dir":"dev/css/abc,dev/images/efg,dev/js,lib"}}}

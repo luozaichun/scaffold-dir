@@ -29,7 +29,7 @@ program
 
 program
     .command('init')
-    .description('Generate a new project')
+    .description('Create a new project')
     .alias('i')
     .action(() => {
     require('../cmd/init')()

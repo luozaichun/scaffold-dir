@@ -13,7 +13,6 @@ module.exports = () => {
         let projectName = yield prompt('Project name: ');
         let _path=yield prompt('Project _path: ');   
         let dirArry=yield config.tpl[tplName]['dir'].split(",");
-        console.log(dirArry);
         if(_path==""){
             _path='C:/Users/Administrator/Desktop/'
         }
@@ -21,7 +20,7 @@ module.exports = () => {
             console.log(chalk.red('\n × Template does not exit!'));
             process.exit()
         }
-        console.log(chalk.white('\n Start generating...'));
+        console.log(chalk.white('\n Start Project...'));
 
         // 创建所有目录
         let dirpath=_path+projectName;
@@ -39,7 +38,7 @@ module.exports = () => {
                         }
                        
                     });
-                    console.log(chalk.green('\n √ Generation completed!'));
+                    console.log(chalk.green('\n √ Project completed!'));
                     process.exit();
                 }
                 else {
