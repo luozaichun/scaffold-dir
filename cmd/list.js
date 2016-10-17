@@ -1,3 +1,6 @@
-/**
- * Created by Administrator on 2016/10/8 0008.
- */
+'use strict';
+const config = require('../templates.json');
+module.exports=()=>{
+    console.log(config.tpl);
+    process.exit();
+};

@@ -14,13 +14,13 @@ module.exports = () => {
 
 
         // 避免重复添加
-        if (!config.tpl=='') {
-            config.tpl = tplName;
-            config.dir = dirname;
-
+        if (!config.tpl[tplName]) {
+            config.tpl[tplName] = {};
+            config.tpl[tplName]['dir'] = dirname;
         } else {
             console.log(chalk.red('Template has already existed!'));
             process.exit()
+
         }
 
         // 把模板信息写入templates.json
