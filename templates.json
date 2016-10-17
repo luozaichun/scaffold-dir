@@ -1,1 +1,6 @@
-{"tpl":{"adb":{"dir":"fgd,efg,cdd"},"cde":{"dir":"lzc,lala,zzx"}}}
+{"tpl": {
+  "webpack": {
+    "dir": "dev/css/abc,dev/images/efg,dev/js,lib"
+    }
+  }
+}

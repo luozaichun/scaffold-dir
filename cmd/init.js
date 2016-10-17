@@ -13,6 +13,7 @@ module.exports = () => {
         let projectName = yield prompt('Project name: ');
         let _path=yield prompt('Project _path: ');   
         let dirArry=yield config.tpl[tplName]['dir'].split(",");
+        console.log(dirArry);
         if(_path==""){
             _path='C:/Users/Administrator/Desktop/'
         }
@@ -28,12 +29,15 @@ module.exports = () => {
             fs.exists(dirpath, function (exists) {
                 if (exists) {
                     dirArry.forEach(v => {
-                        console.log(dirpath + "/" + v);
-                        fs.mkdir(dirpath + "/" + v, err => {
-                            if (err) {
-                                console.log(err);
-                            }
-                        });
+                        if (!fs.existsSync(dirpath + "/" + v)){
+                          let pathArry=v.split("/");
+                            pathArry.forEach((v,i)=> {
+                                var curPath=pathArry.slice(0,i+1).join('/');
+                                var isExist = fs.existsSync(dirpath+"/"+curPath);
+                                !isExist?fs.mkdirSync(dirpath+"/"+curPath):null;
+                            });
+                        }
+                       
                     });
                     console.log(chalk.green('\n √ Generation completed!'));
                     process.exit();
