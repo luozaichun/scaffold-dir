@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
     "sourceMap": true
   },
   "exclude": [
@@ -15,18 +14,18 @@
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   },
-  "name": "scaffolds",
+  "name": "scaffolding",
   "version": "1.0.0",
   "description": "Faster creating  projects",
-  "main": "index.js",
+  "main": "scaffolding.js",
   "bin": {
-    "scaffolds": "scaffold.js"
+    "scaffolding": "scaffolding.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "scaffold"
+    "scaffolding"
   ],
   "author": "",
   "license": "ISC",
