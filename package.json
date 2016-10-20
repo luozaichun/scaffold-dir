@@ -22,7 +22,6 @@
   "bin": {
     "scaffold": "scaffold.js"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,5 +29,13 @@
     "scaffold"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozaichun/scaffold.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luozaichun/scaffold/issues"
+  },
+  "homepage": "https://github.com/luozaichun/scaffold#readme"
 }
