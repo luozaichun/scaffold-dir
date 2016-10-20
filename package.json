@@ -15,12 +15,12 @@
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   },
-  "name": "scaffold",
+  "name": "scaffolds",
   "version": "1.0.0",
   "description": "Faster creating  projects",
   "main": "index.js",
   "bin": {
-    "scaffold": "scaffold.js"
+    "scaffolds": "scaffold.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
