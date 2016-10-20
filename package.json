@@ -31,10 +31,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luozaichun/scaffold.git"
+    "url": "git+https://github.com/luozaichun/scaffold-dir.git"
   },
   "bugs": {
-    "url": "https://github.com/luozaichun/scaffold/issues"
+    "url": "https://github.com/luozaichun/scaffold-dir/issues"
   },
-  "homepage": "https://github.com/luozaichun/scaffold#readme"
+  "homepage": "https://github.com/luozaichun/scaffold-dir#readme"
 }
