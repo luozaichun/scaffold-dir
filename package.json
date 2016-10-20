@@ -14,18 +14,18 @@
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   },
-  "name": "scaffolding",
+  "name": "scaffold-dir",
   "version": "1.0.0",
   "description": "Faster creating  projects",
-  "main": "scaffolding.js",
+  "main": "scaffold-dir.js",
   "bin": {
-    "scaffolding": "scaffolding.js"
+    "scaffold-dir": "scaffold-dir.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "scaffolding"
+    "scaffold-dir"
   ],
   "author": "",
   "license": "ISC",
