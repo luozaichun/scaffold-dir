@@ -1,9 +1,9 @@
-# scaffolds
+# scaffolding
 基于es6自定义创建文件脚手架
 # 入口文件
 使用`node`运行`bin`文件夹下的`scaffolding.js`文件，获取帮助信息
 ```
-Usage: scaffolds <command>
+Usage: scaffolding <command>
 
   Commands:
     add|a    Add a new template
