@@ -6,6 +6,7 @@ npm install scaffold-dir -g
 ```
 # 入口文件
 打开命令行，输入`scaffold-dir` 获取帮助信息
+```
 Usage: scaffold-dir <command>
 
   Commands:
