@@ -1,8 +1,11 @@
 # scaffold-dir
 基于es6自定义创建文件脚手架
-# 入口文件
-使用`node`运行`bin`文件夹下的`scaffold-dir.js`文件，获取帮助信息
+# 安装
 ```
+npm install scaffold-dir -g
+```
+# 入口文件
+打开命令行，输入`scaffold-dir` 获取帮助信息
 Usage: scaffold-dir <command>
 
   Commands:
@@ -17,7 +20,7 @@ Usage: scaffold-dir <command>
 ```
 #使用命令
 ### 添加模板 add|a
-`$ -add`
+`$ scaffold-dir add`
 ```
 Template name: webpack  /*创建模板名字*/
 
@@ -30,7 +33,7 @@ The last template list is:
 { tpl: { webpack: { dir: 'dev/css/abc,dev/images/efg,dev/js,lib' } } }  /*最新的模板列表*/
 ```
 ### 根据模板构建项目 init|i
-`$ -init`
+`$ scaffold-dir init`
 ```
 Template name: webpack /*创建项目基于的模板名字*/
 
@@ -43,7 +46,7 @@ Start Project...
 √ Project completed!  /*项目创建成功*/                                         
 ```
 ### 罗列模板 list|l
-`$ -list`
+`$ scaffold-dir list`
 ```
 { webpack: { dir: 'dev/css/abc,dev/images/efg,dev/js,lib' } }  /*列出所有的模板*/                               
 ```
