@@ -11,11 +11,8 @@ module.exports = () => {
         // 处理用户输入
         let tplName = yield prompt('Template name: ');
         let projectName = yield prompt('Project name: ');
-        let _path=yield prompt('Project _path: ');   
         let dirArry=yield config.tpl[tplName]['dir'].split(",");
-        if(_path==""){
-            _path='C:/Users/Administrator/Desktop/'
-        }
+        let _path=__dirname;
         if (!config.tpl[tplName]) {
             console.log(chalk.red('\n × Template does not exit!'));
             process.exit()
