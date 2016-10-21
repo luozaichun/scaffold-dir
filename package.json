@@ -15,11 +15,10 @@
     "path": "^0.12.7"
   },
   "name": "scaffold-dir",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Faster creating  projects",
-  "main": "scaffold-dir.js",
   "bin": {
-    "scaffold-dir": "scaffold-dir.js"
+    "scaffold-dir": "bin/scaffold-dir.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
